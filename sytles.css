@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f5f0e1;
+    text-align: center;
+}
+.heading{
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    margin-bottom: 5%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rectangle{
+    width: 42vw;
+    height: 65vh;
+    background-color: #1e3d59;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+}
+.output{
+    background:#1e3d59;
+    width: 42vw;
+    height: 20vh;
+    border-radius: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-bottom: 3vh;
+    margin-left: 3vw;
+    width: 5vw;
+    height: 4vh;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+button:hover{
+    transform: translateY(-5px);
+}
+.buttons_head{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    margin-right: 7%;
+}
+.inner_output{
+    background-color: white;
+    width: 77%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Equal{
+   background-color: #ffc13b;
+}
+.o{
+    font-family: 'Roboto Condensed', sans-serif;
+}
